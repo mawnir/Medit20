@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Meditaiton20</title>
+    <meta
+      name="description"
+      content="Meditaiton20 — Twenty minutes of daily mindfulness, breath, and quiet stillness."
+    />
+    <meta name="theme-color" content="#FFFFFF" />
+    <script>
+      // Resolve the theme before first paint to prevent flash of unstyled theme.
+      (function () {
+        var pref = 'system'
+        try {
+          var stored = localStorage.getItem('meditaiton20-theme') || localStorage.getItem('practice-theme')
+          if (stored === 'light' || stored === 'dark' || stored === 'system') pref = stored
+        } catch (e) {}
+        var dark =
+          pref === 'dark' ||
+          (pref === 'system' && matchMedia('(prefers-color-scheme: dark)').matches)
+        var theme = dark ? 'dark' : 'light'
+        document.documentElement.dataset.theme = theme
+        var meta = document.querySelector('meta[name="theme-color"]')
+        if (meta) meta.setAttribute('content', dark ? '#141414' : '#FFFFFF')
+      })()
+    </script>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%231B6E66' stroke-width='2.5' stroke-dasharray='52 8' stroke-linecap='round'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%231B6E66'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

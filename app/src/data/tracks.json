@@ -1,0 +1,912 @@
+{
+  "series": [
+    {
+      "id": "take20",
+      "title": "Take 20",
+      "blurb": "Twenty sessions of about twenty minutes, made to be done one day at a time.",
+      "tracks": [
+        {
+          "id": "take20-01",
+          "series": "take20",
+          "day": 1,
+          "title": "Day 1",
+          "durationSec": 1290,
+          "path": "take20/day-01.m4a"
+        },
+        {
+          "id": "take20-02",
+          "series": "take20",
+          "day": 2,
+          "title": "Day 2",
+          "durationSec": 1290,
+          "path": "take20/day-02.m4a"
+        },
+        {
+          "id": "take20-03",
+          "series": "take20",
+          "day": 3,
+          "title": "Day 3",
+          "durationSec": 1290,
+          "path": "take20/day-03.m4a"
+        },
+        {
+          "id": "take20-04",
+          "series": "take20",
+          "day": 4,
+          "title": "Day 4",
+          "durationSec": 1290,
+          "path": "take20/day-04.m4a"
+        },
+        {
+          "id": "take20-05",
+          "series": "take20",
+          "day": 5,
+          "title": "Day 5",
+          "durationSec": 1290,
+          "path": "take20/day-05.m4a"
+        },
+        {
+          "id": "take20-06",
+          "series": "take20",
+          "day": 6,
+          "title": "Day 6",
+          "durationSec": 1307,
+          "path": "take20/day-06.m4a"
+        },
+        {
+          "id": "take20-07",
+          "series": "take20",
+          "day": 7,
+          "title": "Day 7",
+          "durationSec": 1290,
+          "path": "take20/day-07.m4a"
+        },
+        {
+          "id": "take20-08",
+          "series": "take20",
+          "day": 8,
+          "title": "Day 8",
+          "durationSec": 1290,
+          "path": "take20/day-08.m4a"
+        },
+        {
+          "id": "take20-09",
+          "series": "take20",
+          "day": 9,
+          "title": "Day 9",
+          "durationSec": 1290,
+          "path": "take20/day-09.m4a"
+        },
+        {
+          "id": "take20-10",
+          "series": "take20",
+          "day": 10,
+          "title": "Day 10",
+          "durationSec": 1290,
+          "path": "take20/day-10.m4a"
+        },
+        {
+          "id": "take20-11",
+          "series": "take20",
+          "day": 11,
+          "title": "Day 11",
+          "durationSec": 1290,
+          "path": "take20/day-11.m4a"
+        },
+        {
+          "id": "take20-12",
+          "series": "take20",
+          "day": 12,
+          "title": "Day 12",
+          "durationSec": 1290,
+          "path": "take20/day-12.m4a"
+        },
+        {
+          "id": "take20-13",
+          "series": "take20",
+          "day": 13,
+          "title": "Day 13",
+          "durationSec": 1290,
+          "path": "take20/day-13.m4a"
+        },
+        {
+          "id": "take20-14",
+          "series": "take20",
+          "day": 14,
+          "title": "Day 14",
+          "durationSec": 1290,
+          "path": "take20/day-14.m4a"
+        },
+        {
+          "id": "take20-15",
+          "series": "take20",
+          "day": 15,
+          "title": "Day 15",
+          "durationSec": 1290,
+          "path": "take20/day-15.m4a"
+        },
+        {
+          "id": "take20-16",
+          "series": "take20",
+          "day": 16,
+          "title": "Day 16",
+          "durationSec": 1290,
+          "path": "take20/day-16.m4a"
+        },
+        {
+          "id": "take20-17",
+          "series": "take20",
+          "day": 17,
+          "title": "Day 17",
+          "durationSec": 1290,
+          "path": "take20/day-17.m4a"
+        },
+        {
+          "id": "take20-18",
+          "series": "take20",
+          "day": 18,
+          "title": "Day 18",
+          "durationSec": 1290,
+          "path": "take20/day-18.m4a"
+        },
+        {
+          "id": "take20-19",
+          "series": "take20",
+          "day": 19,
+          "title": "Day 19",
+          "durationSec": 1290,
+          "path": "take20/day-19.m4a"
+        },
+        {
+          "id": "take20-20",
+          "series": "take20",
+          "day": 20,
+          "title": "Day 20",
+          "durationSec": 1290,
+          "path": "take20/day-20.m4a"
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "title": "Focus",
+      "blurb": "Thirty sessions of practising attention that lasts longer than the timer.",
+      "tracks": [
+        {
+          "id": "focus-01-p3",
+          "series": "focus",
+          "day": 1,
+          "title": "Day 1",
+          "durationSec": 1285,
+          "path": "focus/day-01-part-3.m4a"
+        },
+        {
+          "id": "focus-02",
+          "series": "focus",
+          "day": 2,
+          "title": "Day 2",
+          "durationSec": 1285,
+          "path": "focus/day-02.m4a"
+        },
+        {
+          "id": "focus-03",
+          "series": "focus",
+          "day": 3,
+          "title": "Day 3",
+          "durationSec": 1285,
+          "path": "focus/day-03.m4a"
+        },
+        {
+          "id": "focus-04",
+          "series": "focus",
+          "day": 4,
+          "title": "Day 4",
+          "durationSec": 1285,
+          "path": "focus/day-04.m4a"
+        },
+        {
+          "id": "focus-05",
+          "series": "focus",
+          "day": 5,
+          "title": "Day 5",
+          "durationSec": 1285,
+          "path": "focus/day-05.m4a"
+        },
+        {
+          "id": "focus-06",
+          "series": "focus",
+          "day": 6,
+          "title": "Day 6",
+          "durationSec": 1285,
+          "path": "focus/day-06.m4a"
+        },
+        {
+          "id": "focus-07-p2",
+          "series": "focus",
+          "day": 7,
+          "title": "Day 7",
+          "durationSec": 1285,
+          "path": "focus/day-07-part-2.m4a"
+        },
+        {
+          "id": "focus-08",
+          "series": "focus",
+          "day": 8,
+          "title": "Day 8",
+          "durationSec": 1285,
+          "path": "focus/day-08.m4a"
+        },
+        {
+          "id": "focus-09",
+          "series": "focus",
+          "day": 9,
+          "title": "Day 9",
+          "durationSec": 1285,
+          "path": "focus/day-09.m4a"
+        },
+        {
+          "id": "focus-10",
+          "series": "focus",
+          "day": 10,
+          "title": "Day 10",
+          "durationSec": 1285,
+          "path": "focus/day-10.m4a"
+        },
+        {
+          "id": "focus-11-p2",
+          "series": "focus",
+          "day": 11,
+          "title": "Day 11",
+          "durationSec": 1285,
+          "path": "focus/day-11-part-2.m4a"
+        },
+        {
+          "id": "focus-12",
+          "series": "focus",
+          "day": 12,
+          "title": "Day 12",
+          "durationSec": 1285,
+          "path": "focus/day-12.m4a"
+        },
+        {
+          "id": "focus-13",
+          "series": "focus",
+          "day": 13,
+          "title": "Day 13",
+          "durationSec": 1285,
+          "path": "focus/day-13.m4a"
+        },
+        {
+          "id": "focus-14",
+          "series": "focus",
+          "day": 14,
+          "title": "Day 14",
+          "durationSec": 1285,
+          "path": "focus/day-14.m4a"
+        },
+        {
+          "id": "focus-15",
+          "series": "focus",
+          "day": 15,
+          "title": "Day 15",
+          "durationSec": 1285,
+          "path": "focus/day-15.m4a"
+        },
+        {
+          "id": "focus-16-p2",
+          "series": "focus",
+          "day": 16,
+          "title": "Day 16",
+          "durationSec": 1285,
+          "path": "focus/day-16-part-2.m4a"
+        },
+        {
+          "id": "focus-17",
+          "series": "focus",
+          "day": 17,
+          "title": "Day 17",
+          "durationSec": 1285,
+          "path": "focus/day-17.m4a"
+        },
+        {
+          "id": "focus-18",
+          "series": "focus",
+          "day": 18,
+          "title": "Day 18",
+          "durationSec": 1285,
+          "path": "focus/day-18.m4a"
+        },
+        {
+          "id": "focus-19",
+          "series": "focus",
+          "day": 19,
+          "title": "Day 19",
+          "durationSec": 1285,
+          "path": "focus/day-19.m4a"
+        },
+        {
+          "id": "focus-20",
+          "series": "focus",
+          "day": 20,
+          "title": "Day 20",
+          "durationSec": 1285,
+          "path": "focus/day-20.m4a"
+        },
+        {
+          "id": "focus-21-p2",
+          "series": "focus",
+          "day": 21,
+          "title": "Day 21",
+          "durationSec": 1284,
+          "path": "focus/day-21-part-2.m4a"
+        },
+        {
+          "id": "focus-22",
+          "series": "focus",
+          "day": 22,
+          "title": "Day 22",
+          "durationSec": 1284,
+          "path": "focus/day-22.m4a"
+        },
+        {
+          "id": "focus-23",
+          "series": "focus",
+          "day": 23,
+          "title": "Day 23",
+          "durationSec": 1284,
+          "path": "focus/day-23.m4a"
+        },
+        {
+          "id": "focus-24",
+          "series": "focus",
+          "day": 24,
+          "title": "Day 24",
+          "durationSec": 1284,
+          "path": "focus/day-24.m4a"
+        },
+        {
+          "id": "focus-25",
+          "series": "focus",
+          "day": 25,
+          "title": "Day 25",
+          "durationSec": 1284,
+          "path": "focus/day-25.m4a"
+        },
+        {
+          "id": "focus-26",
+          "series": "focus",
+          "day": 26,
+          "title": "Day 26",
+          "durationSec": 1284,
+          "path": "focus/day-26.m4a"
+        },
+        {
+          "id": "focus-27-p2",
+          "series": "focus",
+          "day": 27,
+          "title": "Day 27",
+          "durationSec": 1284,
+          "path": "focus/day-27-part-2.m4a"
+        },
+        {
+          "id": "focus-28",
+          "series": "focus",
+          "day": 28,
+          "title": "Day 28",
+          "durationSec": 1284,
+          "path": "focus/day-28.m4a"
+        },
+        {
+          "id": "focus-29",
+          "series": "focus",
+          "day": 29,
+          "title": "Day 29",
+          "durationSec": 1284,
+          "path": "focus/day-29.m4a"
+        },
+        {
+          "id": "focus-30",
+          "series": "focus",
+          "day": 30,
+          "title": "Day 30",
+          "durationSec": 1284,
+          "path": "focus/day-30.m4a"
+        }
+      ]
+    },
+    {
+      "id": "stress",
+      "title": "Stress",
+      "blurb": "Thirty sessions for the days that feel like too much.",
+      "tracks": [
+        {
+          "id": "stress-01-p3",
+          "series": "stress",
+          "day": 1,
+          "title": "Day 1",
+          "durationSec": 1290,
+          "path": "stress/day-01-part-3.m4a"
+        },
+        {
+          "id": "stress-02",
+          "series": "stress",
+          "day": 2,
+          "title": "Day 2",
+          "durationSec": 1290,
+          "path": "stress/day-02.m4a"
+        },
+        {
+          "id": "stress-03",
+          "series": "stress",
+          "day": 3,
+          "title": "Day 3",
+          "durationSec": 1291,
+          "path": "stress/day-03.m4a"
+        },
+        {
+          "id": "stress-04",
+          "series": "stress",
+          "day": 4,
+          "title": "Day 4",
+          "durationSec": 1291,
+          "path": "stress/day-04.m4a"
+        },
+        {
+          "id": "stress-05",
+          "series": "stress",
+          "day": 5,
+          "title": "Day 5",
+          "durationSec": 1291,
+          "path": "stress/day-05.m4a"
+        },
+        {
+          "id": "stress-06-p2",
+          "series": "stress",
+          "day": 6,
+          "title": "Day 6",
+          "durationSec": 1291,
+          "path": "stress/day-06-part-2.m4a"
+        },
+        {
+          "id": "stress-07",
+          "series": "stress",
+          "day": 7,
+          "title": "Day 7",
+          "durationSec": 1291,
+          "path": "stress/day-07.m4a"
+        },
+        {
+          "id": "stress-08",
+          "series": "stress",
+          "day": 8,
+          "title": "Day 8",
+          "durationSec": 1291,
+          "path": "stress/day-08.m4a"
+        },
+        {
+          "id": "stress-09",
+          "series": "stress",
+          "day": 9,
+          "title": "Day 9",
+          "durationSec": 1291,
+          "path": "stress/day-09.m4a"
+        },
+        {
+          "id": "stress-10",
+          "series": "stress",
+          "day": 10,
+          "title": "Day 10",
+          "durationSec": 1291,
+          "path": "stress/day-10.m4a"
+        },
+        {
+          "id": "stress-11-p2",
+          "series": "stress",
+          "day": 11,
+          "title": "Day 11",
+          "durationSec": 1284,
+          "path": "stress/day-11-part-2.m4a"
+        },
+        {
+          "id": "stress-12",
+          "series": "stress",
+          "day": 12,
+          "title": "Day 12",
+          "durationSec": 1287,
+          "path": "stress/day-12.m4a"
+        },
+        {
+          "id": "stress-13",
+          "series": "stress",
+          "day": 13,
+          "title": "Day 13",
+          "durationSec": 1284,
+          "path": "stress/day-13.m4a"
+        },
+        {
+          "id": "stress-14",
+          "series": "stress",
+          "day": 14,
+          "title": "Day 14",
+          "durationSec": 1287,
+          "path": "stress/day-14.m4a"
+        },
+        {
+          "id": "stress-15-p2",
+          "series": "stress",
+          "day": 15,
+          "title": "Day 15",
+          "durationSec": 1287,
+          "path": "stress/day-15-part-2.m4a"
+        },
+        {
+          "id": "stress-16",
+          "series": "stress",
+          "day": 16,
+          "title": "Day 16",
+          "durationSec": 1284,
+          "path": "stress/day-16.m4a"
+        },
+        {
+          "id": "stress-17",
+          "series": "stress",
+          "day": 17,
+          "title": "Day 17",
+          "durationSec": 1284,
+          "path": "stress/day-17.m4a"
+        },
+        {
+          "id": "stress-18",
+          "series": "stress",
+          "day": 18,
+          "title": "Day 18",
+          "durationSec": 1285,
+          "path": "stress/day-18.m4a"
+        },
+        {
+          "id": "stress-19",
+          "series": "stress",
+          "day": 19,
+          "title": "Day 19",
+          "durationSec": 1285,
+          "path": "stress/day-19.m4a"
+        },
+        {
+          "id": "stress-20",
+          "series": "stress",
+          "day": 20,
+          "title": "Day 20",
+          "durationSec": 1287,
+          "path": "stress/day-20.m4a"
+        },
+        {
+          "id": "stress-21-p2",
+          "series": "stress",
+          "day": 21,
+          "title": "Day 21",
+          "durationSec": 1287,
+          "path": "stress/day-21-part-2.m4a"
+        },
+        {
+          "id": "stress-22",
+          "series": "stress",
+          "day": 22,
+          "title": "Day 22",
+          "durationSec": 1287,
+          "path": "stress/day-22.m4a"
+        },
+        {
+          "id": "stress-23",
+          "series": "stress",
+          "day": 23,
+          "title": "Day 23",
+          "durationSec": 1287,
+          "path": "stress/day-23.m4a"
+        },
+        {
+          "id": "stress-24",
+          "series": "stress",
+          "day": 24,
+          "title": "Day 24",
+          "durationSec": 1287,
+          "path": "stress/day-24.m4a"
+        },
+        {
+          "id": "stress-25",
+          "series": "stress",
+          "day": 25,
+          "title": "Day 25",
+          "durationSec": 1287,
+          "path": "stress/day-25.m4a"
+        },
+        {
+          "id": "stress-26",
+          "series": "stress",
+          "day": 26,
+          "title": "Day 26",
+          "durationSec": 1287,
+          "path": "stress/day-26.m4a"
+        },
+        {
+          "id": "stress-27-p2",
+          "series": "stress",
+          "day": 27,
+          "title": "Day 27",
+          "durationSec": 1287,
+          "path": "stress/day-27-part-2.m4a"
+        },
+        {
+          "id": "stress-28",
+          "series": "stress",
+          "day": 28,
+          "title": "Day 28",
+          "durationSec": 1287,
+          "path": "stress/day-28.m4a"
+        },
+        {
+          "id": "stress-29",
+          "series": "stress",
+          "day": 29,
+          "title": "Day 29",
+          "durationSec": 1287,
+          "path": "stress/day-29.m4a"
+        },
+        {
+          "id": "stress-30",
+          "series": "stress",
+          "day": 30,
+          "title": "Day 30",
+          "durationSec": 1287,
+          "path": "stress/day-30.m4a"
+        }
+      ]
+    },
+    {
+      "id": "sleep",
+      "title": "Sleep",
+      "blurb": "Thirty sessions to end the day with, lights already off.",
+      "tracks": [
+        {
+          "id": "sleep-01-p2",
+          "series": "sleep",
+          "day": 1,
+          "title": "Day 1",
+          "durationSec": 1288,
+          "path": "sleep/day-01-part-2.m4a"
+        },
+        {
+          "id": "sleep-02",
+          "series": "sleep",
+          "day": 2,
+          "title": "Day 2",
+          "durationSec": 1287,
+          "path": "sleep/day-02.m4a"
+        },
+        {
+          "id": "sleep-03",
+          "series": "sleep",
+          "day": 3,
+          "title": "Day 3",
+          "durationSec": 1285,
+          "path": "sleep/day-03.m4a"
+        },
+        {
+          "id": "sleep-04",
+          "series": "sleep",
+          "day": 4,
+          "title": "Day 4",
+          "durationSec": 1287,
+          "path": "sleep/day-04.m4a"
+        },
+        {
+          "id": "sleep-05",
+          "series": "sleep",
+          "day": 5,
+          "title": "Day 5",
+          "durationSec": 1287,
+          "path": "sleep/day-05.m4a"
+        },
+        {
+          "id": "sleep-06",
+          "series": "sleep",
+          "day": 6,
+          "title": "Day 6",
+          "durationSec": 1287,
+          "path": "sleep/day-06.m4a"
+        },
+        {
+          "id": "sleep-07",
+          "series": "sleep",
+          "day": 7,
+          "title": "Day 7",
+          "durationSec": 1288,
+          "path": "sleep/day-07.m4a"
+        },
+        {
+          "id": "sleep-08",
+          "series": "sleep",
+          "day": 8,
+          "title": "Day 8",
+          "durationSec": 1287,
+          "path": "sleep/day-08.m4a"
+        },
+        {
+          "id": "sleep-09",
+          "series": "sleep",
+          "day": 9,
+          "title": "Day 9",
+          "durationSec": 1288,
+          "path": "sleep/day-09.m4a"
+        },
+        {
+          "id": "sleep-10",
+          "series": "sleep",
+          "day": 10,
+          "title": "Day 10",
+          "durationSec": 1290,
+          "path": "sleep/day-10.m4a"
+        },
+        {
+          "id": "sleep-11-p2",
+          "series": "sleep",
+          "day": 11,
+          "title": "Day 11",
+          "durationSec": 1288,
+          "path": "sleep/day-11-part-2.m4a"
+        },
+        {
+          "id": "sleep-12",
+          "series": "sleep",
+          "day": 12,
+          "title": "Day 12",
+          "durationSec": 1287,
+          "path": "sleep/day-12.m4a"
+        },
+        {
+          "id": "sleep-13",
+          "series": "sleep",
+          "day": 13,
+          "title": "Day 13",
+          "durationSec": 1288,
+          "path": "sleep/day-13.m4a"
+        },
+        {
+          "id": "sleep-14",
+          "series": "sleep",
+          "day": 14,
+          "title": "Day 14",
+          "durationSec": 1288,
+          "path": "sleep/day-14.m4a"
+        },
+        {
+          "id": "sleep-15",
+          "series": "sleep",
+          "day": 15,
+          "title": "Day 15",
+          "durationSec": 1288,
+          "path": "sleep/day-15.m4a"
+        },
+        {
+          "id": "sleep-16",
+          "series": "sleep",
+          "day": 16,
+          "title": "Day 16",
+          "durationSec": 1288,
+          "path": "sleep/day-16.m4a"
+        },
+        {
+          "id": "sleep-17",
+          "series": "sleep",
+          "day": 17,
+          "title": "Day 17",
+          "durationSec": 1291,
+          "path": "sleep/day-17.m4a"
+        },
+        {
+          "id": "sleep-18",
+          "series": "sleep",
+          "day": 18,
+          "title": "Day 18",
+          "durationSec": 1288,
+          "path": "sleep/day-18.m4a"
+        },
+        {
+          "id": "sleep-19",
+          "series": "sleep",
+          "day": 19,
+          "title": "Day 19",
+          "durationSec": 1288,
+          "path": "sleep/day-19.m4a"
+        },
+        {
+          "id": "sleep-20",
+          "series": "sleep",
+          "day": 20,
+          "title": "Day 20",
+          "durationSec": 1288,
+          "path": "sleep/day-20.m4a"
+        },
+        {
+          "id": "sleep-21-p2",
+          "series": "sleep",
+          "day": 21,
+          "title": "Day 21",
+          "durationSec": 1287,
+          "path": "sleep/day-21-part-2.m4a"
+        },
+        {
+          "id": "sleep-22",
+          "series": "sleep",
+          "day": 22,
+          "title": "Day 22",
+          "durationSec": 1287,
+          "path": "sleep/day-22.m4a"
+        },
+        {
+          "id": "sleep-23",
+          "series": "sleep",
+          "day": 23,
+          "title": "Day 23",
+          "durationSec": 1287,
+          "path": "sleep/day-23.m4a"
+        },
+        {
+          "id": "sleep-24",
+          "series": "sleep",
+          "day": 24,
+          "title": "Day 24",
+          "durationSec": 1287,
+          "path": "sleep/day-24.m4a"
+        },
+        {
+          "id": "sleep-25",
+          "series": "sleep",
+          "day": 25,
+          "title": "Day 25",
+          "durationSec": 1287,
+          "path": "sleep/day-25.m4a"
+        },
+        {
+          "id": "sleep-26",
+          "series": "sleep",
+          "day": 26,
+          "title": "Day 26",
+          "durationSec": 1287,
+          "path": "sleep/day-26.m4a"
+        },
+        {
+          "id": "sleep-27",
+          "series": "sleep",
+          "day": 27,
+          "title": "Day 27",
+          "durationSec": 1287,
+          "path": "sleep/day-27.m4a"
+        },
+        {
+          "id": "sleep-28",
+          "series": "sleep",
+          "day": 28,
+          "title": "Day 28",
+          "durationSec": 1287,
+          "path": "sleep/day-28.m4a"
+        },
+        {
+          "id": "sleep-29",
+          "series": "sleep",
+          "day": 29,
+          "title": "Day 29",
+          "durationSec": 1287,
+          "path": "sleep/day-29.m4a"
+        },
+        {
+          "id": "sleep-30",
+          "series": "sleep",
+          "day": 30,
+          "title": "Day 30",
+          "durationSec": 1287,
+          "path": "sleep/day-30.m4a"
+        }
+      ]
+    }
+  ]
+}
