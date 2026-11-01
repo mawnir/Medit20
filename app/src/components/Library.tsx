@@ -1,4 +1,3 @@
-import type { CSSProperties } from 'react'
 import { Link } from 'react-router-dom'
 import {
   calculateMindfulStats,
@@ -30,18 +29,40 @@ export function Library({
 
   return (
     <div className="library-view">
-      {/* Hero Header */}
-      <header className="library-head">
-        <h1 className="hero-title">
-          Twenty minutes of daily stillness.
-        </h1>
-        <p className="library-lede">
-          A quiet sanctuary for daily meditation. Four sequential courses, each session
-          timed to twenty minutes, cultivating non-reactive attention one day at a time.
+      {/* Masthead Hero — Exact match of machia.netlify.app */}
+      <div className="masthead">
+        <div>
+          <h1>Twenty minutes of stillness.</h1>
+          <p className="tagline">
+            A quiet sanctuary for daily meditation. Four sequential courses, each timed
+            to twenty minutes, cultivating non-reactive attention one day at a time.
+          </p>
+          <div className="hero-stats">
+            <span>
+              <strong>{series.length}</strong> pathways
+            </span>
+            <span>
+              <strong>{allTracks.length}</strong> sessions
+            </span>
+            <span>
+              <strong>{stats.totalMinutes || 2400}</strong> min of practice
+            </span>
+            {stats.activeStreakDays > 0 ? (
+              <span>
+                <strong>{stats.activeStreakDays}</strong> day streak
+              </span>
+            ) : (
+              <span>Daily stillness</span>
+            )}
+          </div>
+        </div>
+        <p className="tally">
+          <b>{allTracks.length}</b>
+          sessions on file
         </p>
-      </header>
+      </div>
 
-      {/* Continuity / Active Session Stage */}
+      {/* Continuity / Active Practice Shelf */}
       {recent && (
         <section className="resume-shelf" aria-labelledby="resume-heading">
           <div className="resume-card" data-ui="true">
@@ -114,14 +135,11 @@ export function Library({
             const fill = seriesCompletion(progress, entry.tracks)
             const label = progressLabel(progress, entry.tracks)
             const nextAction = nextActionLabel(progress, entry.tracks)
+            const pct = Math.round(fill * 100)
 
             return (
               <li key={entry.id} className="pathway-item">
-                <article
-                  className="pathway-card"
-                  style={{ '--p': fill } as CSSProperties}
-                  data-ui="true"
-                >
+                <article className="pathway-card" data-ui="true">
                   <div className="pathway-top">
                     <span className="pathway-count-badge">
                       {entry.tracks.length} sessions
@@ -136,11 +154,8 @@ export function Library({
                   </h3>
                   <p className="pathway-blurb">{entry.blurb}</p>
 
-                  <div className="pathway-progress-bar" aria-hidden="true">
-                    <div
-                      className="pathway-progress-fill"
-                      style={{ width: `${Math.round(fill * 100)}%` }}
-                    />
+                  <div className="meter" aria-hidden="true">
+                    <i style={{ width: `${pct}%` }} />
                   </div>
 
                   <div className="pathway-footer">

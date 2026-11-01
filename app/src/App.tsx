@@ -91,7 +91,7 @@ function ThemeToggle() {
   return (
     <button
       type="button"
-      className="theme-btn"
+      className="theme-toggle-btn"
       onClick={() =>
         setThemePref(THEME_ORDER[(THEME_ORDER.indexOf(pref) + 1) % THEME_ORDER.length])
       }
@@ -105,43 +105,43 @@ function ThemeToggle() {
 
 function Header({ onOpenSanctuary }: { onOpenSanctuary: () => void }) {
   return (
-    <header className="site-head">
-      <div className="brand-group">
-        <Link to="/" className="brand-link" aria-label="Meditaiton20 Home">
-          <span className="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 28 28" width="22" height="22">
-              <circle cx="14" cy="14" r="10" fill="none" stroke="currentColor" strokeWidth="2.2" strokeDasharray="48 8" />
-              <circle cx="14" cy="14" r="3.6" fill="currentColor" />
+    <header className="bar">
+      <div className="bar-in">
+        <Link to="/" className="wordmark" aria-label="Meditation20 Home">
+          <span className="wordmark-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="8" stroke="currentColor" strokeWidth="2.2" strokeDasharray="36 6" />
+              <circle cx="12" cy="12" r="2.8" fill="currentColor" />
             </svg>
           </span>
-          <span className="wordmark">Meditaiton20</span>
+          <span className="wordmark-name">Meditation20</span>
         </Link>
-      </div>
 
-      <nav className="site-nav" aria-label="Practice pathways">
-        {series.map((entry) => (
-          <NavLink
-            key={entry.id}
-            to={`/series/${entry.id}`}
-            className={({ isActive }) => `nav-link ${isActive ? 'nav-link-active' : ''}`}
+        <nav className="site-nav" aria-label="Practice pathways">
+          {series.map((entry) => (
+            <NavLink
+              key={entry.id}
+              to={`/series/${entry.id}`}
+              className={({ isActive }) => `nav-link ${isActive ? 'nav-link-active' : ''}`}
+            >
+              {entry.title}
+            </NavLink>
+          ))}
+        </nav>
+
+        <div className="controls">
+          <button
+            type="button"
+            className="marks-link"
+            onClick={onOpenSanctuary}
+            title="Open Zen Sanctuary (Key: Z)"
+            aria-label="Open Zen Sanctuary"
           >
-            {entry.title}
-          </NavLink>
-        ))}
-      </nav>
-
-      <div className="header-tools">
-        <button
-          type="button"
-          className="header-zen-btn"
-          onClick={onOpenSanctuary}
-          title="Open Zen Sanctuary (Key: Z)"
-          aria-label="Open Zen Sanctuary"
-        >
-          <ZenIcon />
-          <span>Sanctuary</span>
-        </button>
-        <ThemeToggle />
+            <ZenIcon />
+            <span>Sanctuary</span>
+          </button>
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   )
@@ -155,7 +155,7 @@ function RouteFrame() {
 
   useEffect(() => {
     const found = getSeries(pathname.replace(/^\/series\//, '').split('/')[0] ?? '')
-    document.title = found ? `${found.title} · Meditaiton20` : 'Meditaiton20'
+    document.title = found ? `${found.title} · Meditation20` : 'Meditation20'
 
     if (previousPath.current === pathname) return
     previousPath.current = pathname
@@ -167,7 +167,6 @@ function RouteFrame() {
   // Global keydown handler for 'Z' to toggle Zen Sanctuary
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
-      // Don't trigger if typing in an input
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
       if (e.key === 'z' || e.key === 'Z') {
         if (!e.metaKey && !e.ctrlKey && !e.altKey) {
@@ -185,19 +184,17 @@ function RouteFrame() {
         Skip to content
       </a>
       <div className="shell">
-        <div className="wrap">
-          <Header onOpenSanctuary={() => setSanctuaryOpen(true)} />
-          <main id="main" ref={mainRef} tabIndex={-1}>
-            <Routes>
-              <Route path="/" element={<Home onOpenSanctuary={() => setSanctuaryOpen(true)} />} />
-              <Route
-                path="/series/:seriesId"
-                element={<SeriesRoute onOpenSanctuary={() => setSanctuaryOpen(true)} />}
-              />
-              <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
-          </main>
-        </div>
+        <Header onOpenSanctuary={() => setSanctuaryOpen(true)} />
+        <main id="main" className="page" ref={mainRef} tabIndex={-1}>
+          <Routes>
+            <Route path="/" element={<Home onOpenSanctuary={() => setSanctuaryOpen(true)} />} />
+            <Route
+              path="/series/:seriesId"
+              element={<SeriesRoute onOpenSanctuary={() => setSanctuaryOpen(true)} />}
+            />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </main>
       </div>
 
       <PlayerBar onOpenSanctuary={() => setSanctuaryOpen(true)} />

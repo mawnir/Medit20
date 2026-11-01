@@ -1,4 +1,4 @@
-import { useState, type CSSProperties } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { clock, minutes } from '../lib/manifest'
 import {
@@ -81,12 +81,8 @@ export function SeriesView({
             <span className="progress-summary">{progressLabel(progress, series.tracks)}</span>
             <span className="progress-pct">{Math.round(fill * 100)}%</span>
           </div>
-          <div
-            className="topic-track"
-            style={{ '--p': fill } as CSSProperties}
-            aria-hidden="true"
-          >
-            <div className="topic-track-fill" style={{ width: `${Math.round(fill * 100)}%` }} />
+          <div className="meter" aria-hidden="true">
+            <i style={{ width: `${Math.round(fill * 100)}%` }} />
           </div>
         </div>
       </header>

@@ -1,17 +1,17 @@
 import { useSyncExternalStore } from 'react'
 
-const PRIMARY_KEY = 'meditaiton20-theme'
-const FALLBACK_KEY = 'practice-theme'
+const PRIMARY_KEY = 'cm:theme'
+const FALLBACK_KEY = 'meditaiton20-theme'
 
 export type ThemePref = 'system' | 'light' | 'dark'
 export type Resolved = 'light' | 'dark'
 
 /** The order the toggle button cycles through. */
-export const THEME_ORDER: ThemePref[] = ['system', 'light', 'dark']
+export const THEME_ORDER: ThemePref[] = ['light', 'dark', 'system']
 
 const PAGE_COLORS: Record<Resolved, string> = {
-  light: '#FFFFFF',
-  dark: '#141414',
+  light: '#fafaf7',
+  dark: '#0e0e12',
 }
 
 const listeners = new Set<() => void>()
@@ -23,7 +23,7 @@ function read(): ThemePref {
   } catch {
     // Private mode or blocked storage
   }
-  return 'system'
+  return 'light'
 }
 
 let pref: ThemePref = read()
@@ -63,6 +63,7 @@ export function setThemePref(next: ThemePref) {
   pref = next
   try {
     localStorage.setItem(PRIMARY_KEY, next)
+    localStorage.setItem(FALLBACK_KEY, next)
   } catch {
     // Unpersisted is fine
   }
